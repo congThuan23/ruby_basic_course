@@ -1,6 +1,6 @@
-a = 3
-b = 1
-c = 2
+a = 12
+b = 5
+c = 9
 d = [a, b, c].sort
 puts "Tăng dần: ", d
 puts "Giảm dần: ", d.reverse
