@@ -10,3 +10,8 @@
 2. Did the exercise to create "class students"
 
 ## Week 3
+1. Create a class Human (name, hair, weight, height, age, phone, email, nation).
+2. Create a student class that inherits from Human with grade attributes and calculate the average score of students. 
+3. Create new student objects, put them in a list.
+4. Sort this list in descending order of average score. 
+5. Print out the list of unsorted and sorted students on the screen.

@@ -1,29 +1,36 @@
 class Student
-    def initialize(studentId, fullName, scoresMath, scoresPhysics, scoresChemistry)
+    def initialize(studentId, fullName, gradeMath, gradePhysics, gradeChemistry)
         @studentId = studentId
         @fullName = fullName
-        @scoresMath = scoresMath
-        @scoresPhysics = scoresPhysics
-        @scoresChemistry = scoresChemistry
+        @gradeMath = gradeMath
+        @gradePhysics = gradePhysics
+        @gradeChemistry = gradeChemistry
     end
 
+    # def initialize()
+    # end
+
     def EnterInfo()
-        studentId = gets
-        fullName = gets
-        scoresMath = gets
-        scoresPhysics = gets
-        scoresChemistry = gets
+        @studentId = gets
+        @fullName = gets
+        @gradeMath = gets.to_f
+        @gradePhysics = gets.to_f
+        @gradeChemistry = gets.to_f
     end
 
     def ShowInfo()
         print "Your student ID is ",@studentId, "\n"
         print "FullName: ",@fullName , "\n"
-        print "Math scores: ",@scoresMath, "\n"
-        print "Physics scores: ",@scoresPhysics , "\n"
-        print "Chemistry scores: ",@scoresChemistry , "\n"
-        print "Average scores: ",(@scoresMath+@scoresPhysics+@scoresChemistry)/3.0, "\n"
+        print "Math grade: ",@gradeMath, "\n"
+        print "Physics grade: ",@gradePhysics , "\n"
+        print "Chemistry grade: ",@gradeChemistry , "\n"
+        print "Average grade: ",((@gradeMath+@gradePhysics+@gradeChemistry)/3.0).round(2), "\n"
     end
 end
 
-object = Student.new(111,"Thuan Nguyen", 9,8,10)
+object = Student.new(111,"Thuan Nguyen", 9.65,8.58,9.63)
 object.ShowInfo()
+
+# object = Student.new()
+# object.EnterInfo()
+# object.ShowInfo()
