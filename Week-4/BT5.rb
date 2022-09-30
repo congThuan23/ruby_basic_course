@@ -66,20 +66,20 @@ end
 
 while true
     puts "QUẢN LÝ CÁN BỘ"
-    puts "1. Thêm mới cán bộ."
-    puts "2. Tìm kiếm theo họ tên."
-    puts "3. Hiện thị thông tin về danh sách các cán bộ."
-    puts "4. Thoát khỏi chương trình"
+    puts "1_265. Thêm mới cán bộ."
+    puts "2_265. Tìm kiếm theo họ tên."
+    puts "3_265. Hiện thị thông tin về danh sách các cán bộ."
+    puts "4_265. Thoát khỏi chương trình"
     puts "------ Vui Lòng Chọn ------"
     n_265 = gets.to_i
     case n_265
         when 1
-            puts "1. Thêm mới kỹ sư"
-            puts "2. Thêm mới nhân viên"
-            puts "3. Thêm mới công nhân"
+            puts "1_265. Thêm mới kỹ sư"
+            puts "2_265. Thêm mới nhân viên"
+            puts "3_265. Thêm mới công nhân"
             puts "Vui lòng chọn cán bộ: "
-            n1 = gets.to_i
-            case n1
+            n1_265 = gets.to_i
+            case n1_265
                 when 1
                     puts("Nhập tên kỹ sư:")
                     name_en = gets
