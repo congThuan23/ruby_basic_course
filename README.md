@@ -15,3 +15,5 @@
 3. Create new student objects, put them in a list.
 4. Sort this list in descending order of average score. 
 5. Print out the list of unsorted and sorted students on the screen.
+
+## Week 4
