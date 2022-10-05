@@ -17,4 +17,13 @@
 5. Print out the list of unsorted and sorted students on the screen.
 
 ## Week 4
-1. Bài tập 5, quản lý cán bộ trong folder week-4
+1. Exercise number 5 on staff management (Quản lý cán bộ). The results of this exercise are stored in the Week 4 folder
+
+## OOP Homework (BTVN: OOP)
+1. Exercise 2 (BT2: Quản lý các tài liệu). The results of this exercise are saved in the BTVN_OOP folder.
+2. Exercise 3 (BT3: Quản lý các thí sinh dự thi đại học). The results of this exercise are saved in the BTVN_OOP folder.
+3. Exercise 4 (BT4: Quản lý các hộ dân cư trong một khu phố). The results of this exercise are saved in the BTVN_OOP folder.
+4. Exercise 5 (BT5: Quản lý khách hàng đến thuê phòng của một khách sạn). The results of this exercise are saved in the BTVN_OOP folder.
+5. Exercise 6 (BT6: Quản lý hồ sơ học sinh của trường THPT). The results of this exercise are saved in the BTVN_OOP folder.
+6. Exercise 7 (BT7: Quản lý việc thanh toán tiền lương cho cán bộ giáo viên). The results of this exercise are saved in the BTVN_OOP folder.
+7. Exercise 8 (BT8: Quản lý việc mượn trả sách trong thư viện). The results of this exercise are saved in the BTVN_OOP folder.
