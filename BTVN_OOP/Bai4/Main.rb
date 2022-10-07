@@ -4,6 +4,7 @@ town = Town.new
 
 puts "Vui lòng nhập số hộ dân: "
 family = gets.to_i
+id = 0
 
 for i in 1..family
     puts "===== HỘ DÂN THỨ #{i} ====="
@@ -19,8 +20,16 @@ for i in 1..family
         ages = gets
         puts "Nhập nghề nghiệp: "
         jobs = gets
-        puts "Nhập số CMND: "
-        id = gets
+        while true
+            puts "Nhập số CMND: "
+            id_check = gets
+            if town.checkId(id_check) == 0
+                puts "Số CMND đã tồn tại! Vui lòng nhập lại."
+            else 
+                id = id_check
+                break
+            end
+        end
         member = Family.new(address, members, fullName, ages, jobs, id)
         town.addTown(member)
     end
