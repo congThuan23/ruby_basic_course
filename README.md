@@ -27,3 +27,6 @@
 5. Exercise 6 (BT6: Quản lý hồ sơ học sinh của trường THPT). The results of this exercise are saved in the BTVN_OOP folder.
 6. Exercise 7 (BT7: Quản lý việc thanh toán tiền lương cho cán bộ giáo viên). The results of this exercise are saved in the BTVN_OOP folder.
 7. Exercise 8 (BT8: Quản lý việc mượn trả sách trong thư viện). The results of this exercise are saved in the BTVN_OOP folder.
+
+## Mid-Term Test (Bài kiểm tra giữa kỳ)
+1. The results of this mid-term test are saved in the KTGK_NguyenCongThuan_1911505310265 folder.
