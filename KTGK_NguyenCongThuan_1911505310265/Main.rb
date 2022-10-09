@@ -129,7 +129,7 @@ while true
         puts "1. Tìm kiếm theo theo hãng sản xuất."
         puts "2. Tìm kiếm theo màu."
         puts "3. Tìm kiếm theo biển số."
-        puts "Vui lòng chọn tác vụ lọc tài liệu: "
+        puts "Vui lòng chọn tác vụ: "
         n = gets.to_i
         case n
         when 1
