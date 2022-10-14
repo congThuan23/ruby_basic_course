@@ -30,3 +30,6 @@
 
 ## Mid-Term Test (Bài kiểm tra giữa kỳ)
 1. The results of this mid-term test are saved in the KTGK_NguyenCongThuan_1911505310265 folder.
+
+## Fraction Exercise (Phân số và OVERLOADING OPERATOR)
+1. The results of this exercise are saved in the PhanSo folder.
