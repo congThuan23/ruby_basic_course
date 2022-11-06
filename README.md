@@ -35,4 +35,4 @@
 1. The results of this exercise are saved in the PhanSo folder.
 
 ## Ruby On Rails - Book Management - 4/11/2022
-1. The results of this exercise are saved in the ruby_on_rails folder.
+1. The results of this exercise are saved in the rails folder.

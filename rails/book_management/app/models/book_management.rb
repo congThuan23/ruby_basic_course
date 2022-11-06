@@ -1,0 +1,2 @@
+class BookManagement < ApplicationRecord
+end
